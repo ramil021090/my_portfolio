@@ -1,0 +1,56 @@
+.header{
+  margin: 2rem 0;
+}
+.section{
+    /* min-height: 50vh; */
+    margin: 0 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.expertiseContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: red;
+    margin:0rem 2rem;
+    /* margin-bottom: 5rem; */
+    padding: 1rem;
+    width: 80%;
+}
+.expertiseLogo{
+    display: flex;
+    gap: 2rem;
+}
+.expertise{
+    flex-wrap: wrap;
+    width: calc(50% - 1rem); /* 50% width with spacing */
+    background-color: aqua;
+    padding:3rem;
+    border-radius: 10px;
+    min-height: 300px;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+}
+h2{
+    text-decoration: underline;
+    font-weight: 800;
+}
+h3{
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+p{
+    text-wrap: wrap
+}
+span{
+    gap: 2rem;
+}
+.expertise img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+        }

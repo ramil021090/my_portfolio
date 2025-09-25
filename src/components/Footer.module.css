@@ -1,0 +1,9 @@
+footer{
+  background-color: aquamarine;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  text-align: end;
+  margin: 0 10rem;
+  padding: 2rem;
+}

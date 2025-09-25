@@ -1,0 +1,27 @@
+
+.header{
+  margin: 2rem 0;
+}
+.container{
+  display: flex;
+  justify-items: space-evenly;
+  align-items: center;
+  text-align: center;
+  flex-direction: column ;
+  margin: 0 auto;
+  padding: 0 auto;
+  min-height: 70vh;
+  min-width: auto;
+  flex-wrap: wrap;
+
+}
+h1{
+  font-size: 100px;
+}
+h2{
+  font-size: 60px;
+}
+p{
+font-size: 40px
+}
+
