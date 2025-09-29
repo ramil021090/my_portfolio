@@ -5,10 +5,12 @@ import styles from "./Contact.module.css";
 export default function Contact() {
   return (
     <div>
-      <section>
+      <header>
         <PageNav />
+      </header>
+      <section>
         <h2>Contact Me</h2>
-        <div>
+        <div className={styles.details}>
           <div>
             <h3>Get In Touch</h3>
             <p>
@@ -17,39 +19,17 @@ export default function Contact() {
             </p>
 
             <div>
-              <span>email@example.com</span>
+              <a href="https://www.gmail.com">
+                <span>villahermosaramil2019@gmail.com</span>
+              </a>
             </div>
 
             <div>
-              <span>+63 912 345 6789</span>
+              <span>+63 9237003163</span>
             </div>
 
             <div>
               <span>Philippines</span>
-            </div>
-          </div>
-
-          <div>
-            <h3>Send Message</h3>
-            <div>
-              <div>
-                <label>Name</label>
-                {/* <input type="text" id="name" placeholder="Your Name"> */}
-              </div>
-
-              <div>
-                <label for="email">Email</label>
-                {/* <input type="email" id="email" placeholder="Your Email"> */}
-              </div>
-
-              <div>
-                <label for="message">Message</label>
-                <textarea id="message" placeholder="Your Message"></textarea>
-              </div>
-
-              <button type="submit" class="btn">
-                Send Message
-              </button>
             </div>
           </div>
         </div>

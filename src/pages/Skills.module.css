@@ -1,17 +1,8 @@
-.header{
-  margin: 2rem 0;
-}
-.section{
-    /* min-height: 50vh; */
-    margin: 0 10rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
 
-}
+
 .expertiseContainer{
     display: flex;
+    
     flex-wrap: wrap;
     justify-content: space-between;
     background-color: red;

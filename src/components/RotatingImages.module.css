@@ -1,49 +1,58 @@
-        .container {
-            text-align: center;
-            max-width: 800px;
+      
+        .carouselContainer {
+            position: relative;
             width: 100%;
+            height: 400px;
+            margin: 0 auto 60px;
+            perspective: 1200px;
         }
-        .imageContainer {
-            position: relative;
-            width: 400px;
-            height: 300px;
-            margin: 0 auto 40px;
-            perspective: 1000px;
-            position: relative;
+        
+        .carousel {
+            position: absolute;
             width: 100%;
             height: 100%;
             transform-style: preserve-3d;
-            animation: rotate 30s infinite linear;
+            animation: rotate 40s infinite linear;
         }
-        .image{
+        
+        .image {
             position: absolute;
-            width: 200px;
-            height: 130px;
-            left: 100px;
-            top: 85px;
+            width: 220px;
+            height: 150px;
+            left: calc(50% - 110px);
+            top: calc(50% - 75px);
             border: 4px solid white;
-            border-radius: 8px;
+            border-radius: 12px;
             overflow: hidden;
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-            transition: transform 0.3s, box-shadow 0.3s;
-                      width: 150px;
-                height: 100px;
-                left: 75px;
-                top: 75px;
+            box-shadow: 0 15px 25px rgba(0, 0, 0, 0.4);
+            transition: transform 0.5s, box-shadow 0.5s, z-index 0.5s;
+            cursor: pointer;
+        }
+        
+        .image:hover {
+            transform: scale(1.1);
+            box-shadow: 0 20px 30px rgba(83, 66, 66, 0.5);
+            z-index: 10;
         }
         
         .image img {
             width: 100%;
             height: 100%;
             object-fit: cover;
+            transition: transform 0.5s;
         }
-
-        .image:nth-child(1) { transform: rotateY(0deg) translateZ(250px); }
-        .image:nth-child(2) { transform: rotateY(60deg) translateZ(250px); }
-        .image:nth-child(3) { transform: rotateY(120deg) translateZ(250px); }
-        .image:nth-child(4) { transform: rotateY(180deg) translateZ(250px); }
-        .image:nth-child(5) { transform: rotateY(240deg) translateZ(250px); }
-        .image:nth-child(6) { transform: rotateY(300deg) translateZ(250px); }
+        
+        .image:hover img {
+            transform: scale(1.1);
+        }
+        
+        /* Position images in a circle */
+        .image:nth-child(1) { transform: rotateY(0deg) translateZ(350px); }
+        .image:nth-child(2) { transform: rotateY(60deg) translateZ(350px); }
+        .image:nth-child(3) { transform: rotateY(120deg) translateZ(350px); }
+        .image:nth-child(4) { transform: rotateY(180deg) translateZ(350px); }
+        .image:nth-child(5) { transform: rotateY(240deg) translateZ(350px); }
+        .image:nth-child(6) { transform: rotateY(300deg) translateZ(350px); }
         
         @keyframes rotate {
             from {
@@ -53,10 +62,24 @@
                 transform: rotateY(360deg);
             }
         }
-        .image:nth-child(1) { transform: rotateY(0deg) translateZ(200px); }
-        .image:nth-child(2) { transform: rotateY(45deg) translateZ(200px); }
-        .image:nth-child(3) { transform: rotateY(90deg) translateZ(200px); }
-        .image:nth-child(4) { transform: rotateY(135deg) translateZ(200px); }
-        .image:nth-child(5) { transform: rotateY(180deg) translateZ(200px); }
-        .image:nth-child(6) { transform: rotateY(225deg) translateZ(200px); }
-       
+/*         
+        @media (max-width: 768px) {
+            .carouselContainer {
+                height: 300px;
+            }
+            
+            .image {
+                width: 160px;
+                height: 110px;
+                left: calc(50% - 80px);
+                top: calc(50% - 55px);
+            }
+            
+            .image:nth-child(1) { transform: rotateY(0deg) translateZ(250px); }
+            .image:nth-child(2) { transform: rotateY(60deg) translateZ(250px); }
+            .image:nth-child(3) { transform: rotateY(120deg) translateZ(250px); }
+            .image:nth-child(4) { transform: rotateY(180deg) translateZ(250px); }
+            .image:nth-child(5) { transform: rotateY(240deg) translateZ(250px); }
+            .image:nth-child(6) { transform: rotateY(300deg) translateZ(250px); }
+            
+        } */

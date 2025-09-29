@@ -3,9 +3,11 @@ import PageNav from "../components/PageNav";
 
 export default function Projects() {
   return (
-    <div>
-      <section>
+    <>
+      <header>
         <PageNav />
+      </header>
+      <section>
         <h2>Projects</h2>
         <div>
           <div>
@@ -51,6 +53,6 @@ export default function Projects() {
           </div>
         </div>
       </section>
-    </div>
+    </>
   );
 }
