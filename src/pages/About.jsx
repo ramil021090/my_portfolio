@@ -6,9 +6,9 @@ import styles from "./About.module.css";
 export default function About() {
   return (
     <>
-      <div className={styles.header}>
+      <header>
         <PageNav />
-      </div>
+      </header>
       <section>
         <h2>About Me</h2>
         <div className={styles.profileContainer}>

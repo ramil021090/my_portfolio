@@ -6,10 +6,10 @@ import styles from "./Skills.module.css";
 export default function Skills() {
   return (
     <>
-      <div className={styles.header}>
+      <header>
         <PageNav />
-      </div>
-      <section className={styles.section}>
+      </header>
+      <section>
         <h2>Skills & Expertise</h2>
         <div className={styles.expertiseContainer}>
           <div className={styles.expertise}>
@@ -45,7 +45,7 @@ export default function Skills() {
               <h3>React & React Native</h3>
               <span>
                 <img src="/logo/react.png" alt="react" />
-                <img src="/logo/reactNative.png" alt="reactNative" />
+                <img src="/logo/reactnative.png" alt="reactnative" />
               </span>
             </div>
             <p>
