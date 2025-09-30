@@ -69,7 +69,9 @@ export default function Skills() {
           </div>
         </div>
       </section>
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

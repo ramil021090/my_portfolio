@@ -10,15 +10,13 @@ export default function Homepage() {
       <header>
         <PageNav />
       </header>
-      <section>
-        <div>
-          <h1>Ramil G. Villahermosa</h1>
-          <h2>Frontend Web Developer</h2>
-          <p>
-            Creating responsive and user-friendly websites with moder
-            technologies
-          </p>
-        </div>
+      <section className={styles.container}>
+        <h1 className={styles.name}>Ramil G. Villahermosa</h1>
+        <h2 className={styles.title}>Frontend Web Developer</h2>
+        <p>
+          Creating responsive and user-friendly websites with modern
+          technologies
+        </p>
         <RotatingImages />
       </section>
       <footer>

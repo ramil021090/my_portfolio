@@ -5,9 +5,9 @@
     
     flex-wrap: wrap;
     justify-content: space-between;
-    background-color: red;
+    /* background-color: red; */
     margin:0rem 2rem;
-    /* margin-bottom: 5rem; */
+    margin: 2rem;
     padding: 1rem;
     width: 80%;
 }
@@ -18,12 +18,16 @@
 .expertise{
     flex-wrap: wrap;
     width: calc(50% - 1rem); /* 50% width with spacing */
-    background-color: aqua;
+    /* background-color: aqua; */
     padding:3rem;
+    padding-top: 5rem;
     border-radius: 10px;
     min-height: 300px;
     margin-bottom: 2rem;
     box-sizing: border-box;
+    /* border: 2px solid white; */
+     box-shadow: 0 4px 15px rgba(177, 238, 223, 0.3);
+    border-radius: 10px;
 }
 h2{
     text-decoration: underline;
