@@ -1,0 +1,7 @@
+.footer{
+  font-family: monospace;
+  font-size: xx-large;
+  padding: 1rem;
+  color: rgb(125, 228, 202);
+  text-shadow: 1px 1px 1px rgba(0, 0, 255, 0.842);
+}

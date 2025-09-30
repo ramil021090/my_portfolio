@@ -14,31 +14,32 @@ export default function About() {
         <div className={styles.profileContainer}>
           <div className={styles.profile}>
             <ProfilePic />
-
-            <div>
-              <span>
-                <strong>Age:</strong> 35 years old
-              </span>
-            </div>
-            <div>
-              <span>
-                <strong>Status:</strong> Single
-              </span>
-            </div>
-            <div>
-              <span>
-                <strong>Education:</strong> Samson Polytechnical College
-              </span>
-            </div>
-            <div>
-              <span>
-                <strong>Course:</strong> Computer Programming NCIV
-              </span>
-            </div>
-            <div>
-              <span>
-                <strong>Year:</strong> 2017
-              </span>
+            <div className={styles.info}>
+              <div className={styles.infos}>
+                <span>
+                  <strong>Age:</strong> 35 years old
+                </span>
+              </div>
+              <div className={styles.infos}>
+                <span>
+                  <strong>Status:</strong> Single
+                </span>
+              </div>
+              <div className={styles.infos}>
+                <span>
+                  <strong>Education:</strong> Samson Polytechnical College
+                </span>
+              </div>
+              <div className={styles.infos}>
+                <span>
+                  <strong>Course:</strong> Computer Programming NCIV
+                </span>
+              </div>
+              <div className={styles.infos}>
+                <span>
+                  <strong>Year:</strong> 2017
+                </span>
+              </div>
             </div>
           </div>
 
@@ -63,7 +64,9 @@ export default function About() {
           </div>
         </div>
       </section>
-      <Footer />
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

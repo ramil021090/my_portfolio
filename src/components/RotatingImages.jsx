@@ -15,7 +15,7 @@ export default function RotatingImages() {
             <img src="./logo/html.png" alt="html" />
           </div>
           <div className={styles.image}>
-            <img src="./logo/html.png" alt="html" />
+            <img src="./logo/react.png" alt="react" />
           </div>
           <div className={styles.image}>
             <img src="./logo/reactnative.png" alt="reactnative" />
