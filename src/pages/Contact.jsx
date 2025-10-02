@@ -1,10 +1,11 @@
 import React from "react";
 import PageNav from "../components/PageNav";
+import Footer from "../components/Footer";
 import styles from "./Contact.module.css";
 
 export default function Contact() {
   return (
-    <div>
+    <>
       <header>
         <PageNav />
       </header>
@@ -34,6 +35,9 @@ export default function Contact() {
           </div>
         </div>
       </section>
-    </div>
+      <footer>
+        <Footer />
+      </footer>
+    </>
   );
 }
