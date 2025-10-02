@@ -7,6 +7,7 @@
 }
 header{
   margin-top: 5rem;
+  /* background-color: aqua; */
 }
 section{
   max-height: 100vh;
@@ -18,9 +19,11 @@ section{
   flex-direction: column;
   text-align: center;
   min-height: 60vh;
+  /* background-color: aqua; */
 }
 
 h2{
+  margin: 2rem 0rem;  
   color: aliceblue;
   font-size: 3vw;
 }

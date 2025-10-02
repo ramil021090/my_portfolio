@@ -1,5 +1,6 @@
 import React from "react";
 import PageNav from "../components/PageNav";
+import Footer from "../components/Footer";
 
 export default function Projects() {
   return (
@@ -53,6 +54,9 @@ export default function Projects() {
           </div>
         </div>
       </section>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }

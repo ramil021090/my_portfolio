@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
 import PageNav from "../components/PageNav";
 import Footer from "../components/Footer";
-import styles from "./Homepage.module.css";
+import Icon from "../components/Icon";
 import RotatingImages from "../components/RotatingImages";
+import styles from "./Homepage.module.css";
 
 export default function Homepage() {
   return (
@@ -10,6 +11,9 @@ export default function Homepage() {
       <header>
         <PageNav />
       </header>
+      <div className={styles.icon}>
+        <Icon />
+      </div>
       <section className={styles.container}>
         <h1 className={styles.name}>Ramil G. Villahermosa</h1>
         <h2 className={styles.title}>Frontend Web Developer</h2>
@@ -19,6 +23,9 @@ export default function Homepage() {
         </p>
         <RotatingImages />
       </section>
+      <button className={styles.button}>
+        <h4>Get in touch</h4>
+      </button>
       <footer>
         <Footer />
       </footer>
