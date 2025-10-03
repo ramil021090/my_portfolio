@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import PageNav from "../components/PageNav";
 import Footer from "../components/Footer";
 import Icon from "../components/Icon";
@@ -23,9 +23,11 @@ export default function Homepage() {
         </p>
         <RotatingImages />
       </section>
-      <button className={styles.button}>
-        <h4>Get in touch</h4>
-      </button>
+      <NavLink to="/contact">
+        <button className={styles.button}>
+          <h4>Get in touch</h4>
+        </button>
+      </NavLink>
       <footer>
         <Footer />
       </footer>
