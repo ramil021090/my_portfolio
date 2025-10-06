@@ -32,7 +32,7 @@ export default function Icon() {
         </div>
         <div className={styles.icon}>
           <a
-            href="https://github.com/"
+            href="https://github.com/ramil021090"
             target="_blank"
             rel="noopener noreferrer"
           >
